@@ -11,7 +11,7 @@ function handleClick(e) {
 
 function greet(input) {
   let time = parseInt(str.split(':').join(''));
-  if (0000 <= time < 1200 ){
+  if (0001 <= time < 1200 ){
     return 'Good Morning'
   } else if (1200 <= time < 1500){
     return 'Good Afternoon'
